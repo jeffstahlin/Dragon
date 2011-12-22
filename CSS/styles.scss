@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:500);
+
+$fullwidth: 720px;
+$fontfamily: 'Raleway', cursive;
+$statfont: 'Cabin Condensed', sans-serif;
+$orangefont: #fd9421;
+
+.FullPage {
+	width: $fullwidth;
+	font-family: $fontfamily;
+	background: white;
+	border-right: 1px #ccc dashed;
+
+	a {
+		color: white !important;
+		text-decoration: none;
+	}
+
+	header {
+		width: $fullwidth - 40px;
+		height: 50px;
+		background: none;
+		color: white;
+		text-shadow: none;
+		text-align: right;
+		z-index: 999;
+		position: relative;
+		padding-right: 40px;
+	}
+
+	#Content {
+		margin-top: -95px;
+		z-index: 0;
+	}
+
+	&, #MyStats {
+
+		.StatsList {
+			list-style-type: none;
+			position: absolute;
+			top: 150px;
+			left: 350px;
+
+			li {
+				display: block;
+				width: 310px;
+				height: 270px;
+				margin-bottom: 30px;
+				font-size: 40px;
+				font-weight: bold;
+				text-align: left;
+				position: relative;
+				z-index: 58;
+				color: white;
+
+				img {
+					margin-top: 25px;
+					position: relative;
+					z-index: 60;
+					float: right;
+				}
+
+				span {
+					position: absolute;
+					top: 110px;
+					z-index: 99;
+					width: 350px;
+					text-align: left;
+					right: 0;
+					color: #ff931e;
+					font-size: 35px;
+				}
+			}
+		}
+	}
+
+	&, #SearchPage {
+
+		.SearchBar {
+			list-style-type: none;
+			position: absolute;
+			top: 150px;
+			left: 350px;
+
+			li {
+				display: block;
+				width: 310px;
+				height: 270px;
+				margin-bottom: 30px;
+				font-size: 40px;
+				font-weight: bold;
+				text-align: left;
+				position: relative;
+				z-index: 58;
+				color: white;
+
+				input {
+					margin-top: 7px;
+					position: relative;
+					z-index: 60;
+					right: 25px;	
+				}
+
+			}
+		}
+	}
+}

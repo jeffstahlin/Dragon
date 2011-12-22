@@ -1,0 +1,338 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:500);
+body {
+  position: absolute; }
+
+#SuperPage {
+  background: transparent; }
+
+.FullPage {
+  width: 720px !important;
+  height: 1280px;
+  font-family: "Raleway", cursive;
+  background: transparent;
+  border-right: 1px #ccc dashed;
+  border-bottom: 1px #ccc dashed; }
+  .FullPage header {
+    width: 600px;
+    height: 50px;
+    background: none;
+    color: #fd9421;
+    text-shadow: none;
+    text-align: right;
+    z-index: 999;
+    position: relative;
+    padding-right: 120px;
+    margin-top: 30px; }
+    .FullPage header a {
+      color: #fd9421 !important;
+      text-decoration: none; }
+  .FullPage #Content {
+    margin-top: -95px;
+    z-index: 0; }
+
+#SearchPage {
+  position: absolute;
+  top: 0;
+  left: 720px; }
+  #SearchPage .SearchBar {
+    list-style-type: none;
+    position: absolute;
+    top: 159px;
+    left: 333px; }
+    #SearchPage .SearchBar li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      #SearchPage .SearchBar li input {
+        margin-top: 7px;
+        position: relative;
+        z-index: 60;
+        right: 25px; }
+
+#ComparePage {
+  position: absolute;
+  top: 0;
+  left: 0; }
+  #ComparePage .StatsList {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    #ComparePage .StatsList li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      #ComparePage .StatsList li img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 60;
+        float: right; }
+      #ComparePage .StatsList li span {
+        position: absolute;
+        top: 110px;
+        z-index: 99;
+        width: 350px;
+        text-align: left;
+        right: 0;
+        color: #ff931e;
+        font-size: 35px; }
+
+#PostLoading {
+  position: absolute;
+  top: 0;
+  left: 1440px; }
+  #PostLoading .StatsList {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    #PostLoading .StatsList li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      #PostLoading .StatsList li img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 60;
+        float: right; }
+      #PostLoading .StatsList li span {
+        position: absolute;
+        top: 110px;
+        z-index: 99;
+        width: 350px;
+        text-align: left;
+        right: 0;
+        color: #ff931e;
+        font-size: 35px; }
+
+#FinalScore {
+  position: absolute;
+  top: 1280px;
+  left: 0; }
+  #FinalScore .StatsList {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    #FinalScore .StatsList li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      #FinalScore .StatsList li img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 60;
+        float: right; }
+      #FinalScore .StatsList li span {
+        position: absolute;
+        top: 110px;
+        z-index: 99;
+        width: 350px;
+        text-align: left;
+        right: 0;
+        color: #ff931e;
+        font-size: 35px; }
+
+#MainPage {
+  position: absolute;
+  top: 1280px;
+  left: 720px; }
+  #MainPage .StatsList {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    #MainPage .StatsList li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      #MainPage .StatsList li img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 60;
+        float: right; }
+      #MainPage .StatsList li span {
+        position: absolute;
+        top: 110px;
+        z-index: 99;
+        width: 350px;
+        text-align: left;
+        right: 0;
+        color: #ff931e;
+        font-size: 35px; }
+
+#Loading {
+  position: absolute;
+  top: 1280px;
+  left: 1440px; }
+  #Loading .StatsList {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    #Loading .StatsList li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      #Loading .StatsList li img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 60;
+        float: right; }
+      #Loading .StatsList li span {
+        position: absolute;
+        top: 110px;
+        z-index: 99;
+        width: 350px;
+        text-align: left;
+        right: 0;
+        color: #ff931e;
+        font-size: 35px; }
+
+#Empty {
+  position: absolute;
+  top: 2560px;
+  left: 0; }
+  #Empty .StatsList {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    #Empty .StatsList li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      #Empty .StatsList li img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 60;
+        float: right; }
+      #Empty .StatsList li span {
+        position: absolute;
+        top: 110px;
+        z-index: 99;
+        width: 350px;
+        text-align: left;
+        right: 0;
+        color: #ff931e;
+        font-size: 35px; }
+
+#MyStats {
+  position: absolute;
+  top: 2560px;
+  left: 720px; }
+  #MyStats .StatsList {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    #MyStats .StatsList li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      #MyStats .StatsList li img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 60;
+        float: right; }
+      #MyStats .StatsList li span {
+        position: absolute;
+        top: 110px;
+        z-index: 99;
+        width: 350px;
+        text-align: left;
+        right: 0;
+        color: #ff931e;
+        font-size: 35px; }
+
+#PreLoading {
+  position: absolute;
+  top: 2560px;
+  left: 1440px; }
+  #PreLoading .StatsList {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    #PreLoading .StatsList li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      #PreLoading .StatsList li img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 60;
+        float: right; }
+      #PreLoading .StatsList li span {
+        position: absolute;
+        top: 110px;
+        z-index: 99;
+        width: 350px;
+        text-align: left;
+        right: 0;
+        color: #ff931e;
+        font-size: 35px; }

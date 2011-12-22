@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:500);
+.FullPage {
+  width: 720px;
+  font-family: "Raleway", cursive;
+  background: white;
+  border-right: 1px #ccc dashed; }
+  .FullPage a {
+    color: white !important;
+    text-decoration: none; }
+  .FullPage header {
+    width: 680px;
+    height: 50px;
+    background: none;
+    color: white;
+    text-shadow: none;
+    text-align: right;
+    z-index: 999;
+    position: relative;
+    padding-right: 40px; }
+  .FullPage #Content {
+    margin-top: -95px;
+    z-index: 0; }
+  .FullPage .StatsList, .FullPage #MyStats .StatsList {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    .FullPage .StatsList li, .FullPage #MyStats .StatsList li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      .FullPage .StatsList li img, .FullPage #MyStats .StatsList li img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 60;
+        float: right; }
+      .FullPage .StatsList li span, .FullPage #MyStats .StatsList li span {
+        position: absolute;
+        top: 110px;
+        z-index: 99;
+        width: 350px;
+        text-align: left;
+        right: 0;
+        color: #ff931e;
+        font-size: 35px; }
+  .FullPage .SearchBar, .FullPage #SearchPage .SearchBar {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    left: 350px; }
+    .FullPage .SearchBar li, .FullPage #SearchPage .SearchBar li {
+      display: block;
+      width: 310px;
+      height: 270px;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: left;
+      position: relative;
+      z-index: 58;
+      color: white; }
+      .FullPage .SearchBar li input, .FullPage #SearchPage .SearchBar li input {
+        margin-top: 7px;
+        position: relative;
+        z-index: 60;
+        right: 25px; }
