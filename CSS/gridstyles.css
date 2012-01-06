@@ -338,10 +338,10 @@ body {
         font-size: 35px; }
 
 .FloatMenu {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background: black;
   z-index: 100;
   position: fixed;
-  top: 1100px;
-  right: 200px; }
+  top: 1180px;
+  left: 590px; }
