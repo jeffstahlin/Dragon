@@ -438,3 +438,13 @@ body { position: absolute; }
 		}
 	}
 }
+
+.FloatMenu {
+    width: 200px;
+    height: 200px;
+    background: black;
+    z-index: 1;
+    position: fixed;
+    top: 1100px;
+    right: 200px;
+}
