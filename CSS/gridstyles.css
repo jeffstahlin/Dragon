@@ -338,10 +338,7 @@ body {
         font-size: 35px; }
 
 .FloatMenu {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background: black;
-  z-index: 100;
-  position: absolute;
-  top: 1180px;
-  left: 590px; }
+  cursor: pointer; }
