@@ -342,6 +342,6 @@ body {
   height: 100px;
   background: black;
   z-index: 100;
-  position: fixed;
+  position: absolute;
   top: 1180px;
   left: 590px; }
