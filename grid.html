@@ -8,10 +8,12 @@
 
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
 		<link rel="stylesheet" href="CSS/gridstyles.css" />
+        <link rel="stylesheet" href="CSS/FloatMenu.css" />
 
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
         <script type="text/javascript" src="js/canvas.js"></script>
+        <script type="text/javascript" src="js/FloatMenu.js"></script>
 	</head> 
 	<body>
 		
@@ -142,5 +144,56 @@
 
 		</div>
         
+        <div class="FloatMenu">
+            <div class="trigger">
+                <img class="trigger" src="http://jqueryfordesigners.com/demo/images/coda/nav-download.png" id="download" />
+            </div>
+            <table id="dpop" class="popup">
+                <tbody>
+                    <tr>
+                        <td id="topleft" class="corner"></td>
+                        <td class="top"></td>
+                        <td id="topright" class="corner"></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="left"></td>
+                        <td>
+                            <table class="popup-contents">
+                                <tbody>
+                                    <tr>
+                                        <th>File:</th>
+                                        <td>coda 1.1.zip</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Date:</th>
+                                        <td>11/30/07</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Size:</th>
+                                        <td>17 MB</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Req:</th>
+                                        <td>Mac OS X 10.4+</td>
+                                    </tr>                        
+                                    <tr id="release-notes">
+                                        <th>Read the release notes:</th>
+                                        <td><a title="Read the release notes" href="./releasenotes.html">release notes</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td class="right"></td>    
+                    </tr>
+        
+                    <tr>
+                        <td class="corner" id="bottomleft"></td>
+                        <td class="bottom"><img width="30" height="29" alt="popup tail" src="http://static.jqueryfordesigners.com/demo/images/coda/bubble-tail2.png"/></td>
+                        <td id="bottomright" class="corner"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>        
 	</body>
 </html>
