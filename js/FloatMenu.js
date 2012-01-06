@@ -19,7 +19,7 @@ $(function () {
                     hideDelayTimer = setTimeout(function () {
                     hideDelayTimer = null;
                     info.animate({
-                        top: '-=' + distance + 'px',
+                        bottom: '-=' + distance + 'px',
                         opacity: 0
                     }, time, 'swing', function () {
                         shown = false;
@@ -34,12 +34,12 @@ $(function () {
                 beingShown = true;
 
                 info.css({
-                    top: -90,
-                    left: -33,
+                    bottom: 90,
+                    right: 0,
                     display: 'block'
                 }).animate({
-                    top: '-=' + distance + 'px',
-                    opacity: 1
+                    bottom: '+=' + distance + 'px',
+                    opacity: 0.8
                 }, time, 'swing', function() {
                     beingShown = false;
                     shown = true;
@@ -47,6 +47,26 @@ $(function () {
             }
 
             return false;
-        })
+        });
     });
+    
+    
+    $('#search').click(function () {
+        var time = 250;
+        
+        $('.FloatMenu').css({
+                right: 0,
+                bottom: 90                
+            }).animate({
+                right: '+=' + 1314 + 'px'
+            }, time, 'swing');
+            
+            return false;
+        });
+    
+});
+
+
+$( '#FinalScore' ).live( 'pageinit',function(){
+    alert( 'This page was just enhanced by jQuery Mobile!' );
 });
