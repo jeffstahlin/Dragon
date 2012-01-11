@@ -1,0 +1,21 @@
+.popup {
+    position: absolute;
+    display: none;
+    z-index: 50;
+    border-collapse: collapse;
+    background: black;
+    height: 1095px;
+}
+
+.MenuItem {
+    font-size: 60px;
+    font-family: "Raleway", cursive;
+    color: white;
+    border-bottom: 1px solid #ccc;
+    width: 615px;
+    padding: 25px;
+}
+
+.MenuItem:hover {
+    cursor: pointer;
+}
